@@ -191,7 +191,7 @@ Function PrintNotification(UD_CustomDevice_RenderScript akDevice, String asCondi
     ElseIf aiEffectId == 3
         loc_effect = "You feel that your " + akDevice.UD_DeviceType + " is shifting "
     ElseIf aiEffectId == 4
-        loc_effect = "You sense that your " + akDevice.UD_DeviceType + " is reacted somehow "
+        loc_effect = "You sense that your " + akDevice.UD_DeviceType + " is reacting somehow "
     EndIf
     
     UDMain.Print(loc_effect + asCondition)
